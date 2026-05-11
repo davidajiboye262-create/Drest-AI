@@ -1,8 +1,8 @@
-# Run your AI app
+# Run your AI software
 
-This contains everything you need to run your app locally.
+This contains everything you need to run your chatbot locally.
 
-Visit : //https://drestai.netlify.app/
+Visit: https://drestai.netlify.app/
 
 #OR
 
