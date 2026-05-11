@@ -73,7 +73,7 @@ document.addEventListener("click", (e) => {
 
 // Initialize Gemini directly in the frontend
 // You can paste your API key directly here for testing
-const HARDCODED_API_KEY = "AIzaSyAEjFNYFrCxifkTVOg6XsrURpBe91jsNnk"; 
+const HARDCODED_API_KEY = "AIza*****************"; 
 
 const apiKey = HARDCODED_API_KEY || (process.env.GEMINI_API_KEY === "MY_GEMINI_API_KEY" ? "" : process.env.GEMINI_API_KEY);
 
