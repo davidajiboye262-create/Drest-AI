@@ -1,8 +1,8 @@
-# Run and deploy your AI app
+# Run your AI app
 
 This contains everything you need to run your app locally.
 
-View your app in: //https://drestai.netlify.app/
+Visit : //https://drestai.netlify.app/
 
 #OR
 
