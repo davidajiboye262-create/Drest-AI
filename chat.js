@@ -1,4 +1,5 @@
 import { GoogleGenAI } from "@google/genai";
+import { config } from "dotenv";
 
 const messageInput = document.querySelector(".message-input");
 const chatBody = document.querySelector(".chat-body");
@@ -73,7 +74,7 @@ document.addEventListener("click", (e) => {
 
 // Initialize Gemini directly in the frontend
 // You can paste your API key directly here for testing
-const HARDCODED_API_KEY = "AIza*****************"; 
+const HARDCODED_API_KEY = config.GEMINI_API_KEY; // <-- Paste your Gemini API key here for quick testing (optional)
 
 const apiKey = HARDCODED_API_KEY || (process.env.GEMINI_API_KEY === "MY_GEMINI_API_KEY" ? "" : process.env.GEMINI_API_KEY);
 
@@ -164,7 +165,7 @@ const handleOutgoingMessage = (e) => {
   if (!userData.message && !userData.file.data) return;
 
   const currentMessage = userData.message;
-  const currentFile = { ...userData.file };
+  const currentFille = { ...userData.file };
 
   messageInput.value = "";
   fileUploadWrapper.classList.remove("file-uploaded");
